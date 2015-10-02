@@ -1,19 +1,19 @@
-include(../../Tools/ToolTestQtRoundedEditRectItem/ToolTestQtRoundedEditRectItemConsole.pri)
+include(../TestRoundedEditRectItem/ToolTestQtRoundedEditRectItemConsole.pri)
 
 HEADERS += \
-    ../../Tools/ToolTestQtRoundedEditRectItem/qttestqtroundededitrectitemwidget.h \
-    ../../Tools/ToolTestQtRoundedEditRectItem/qttestqtroundededitrectitemmenudialog.h \
-    ../../Tools/ToolTestQtRoundedEditRectItem/qttestqtroundededitrectitemcomparedialog.h \
-    ../../Tools/ToolTestQtRoundedEditRectItem/qttestqtroundededitrectitemmodifydialog.h
+    ../TestRoundedEditRectItem/qttestqtroundededitrectitemwidget.h \
+    ../TestRoundedEditRectItem/qttestqtroundededitrectitemmenudialog.h \
+    ../TestRoundedEditRectItem/qttestqtroundededitrectitemcomparedialog.h \
+    ../TestRoundedEditRectItem/qttestqtroundededitrectitemmodifydialog.h
 
 SOURCES += \
-    ../../Tools/ToolTestQtRoundedEditRectItem/qttestqtroundededitrectitemwidget.cpp \
-    ../../Tools/ToolTestQtRoundedEditRectItem/qttestqtroundededitrectitemmenudialog.cpp \
-    ../../Tools/ToolTestQtRoundedEditRectItem/qttestqtroundededitrectitemcomparedialog.cpp \
-    ../../Tools/ToolTestQtRoundedEditRectItem/qttestqtroundededitrectitemmodifydialog.cpp
+    ../TestRoundedEditRectItem/qttestqtroundededitrectitemwidget.cpp \
+    ../TestRoundedEditRectItem/qttestqtroundededitrectitemmenudialog.cpp \
+    ../TestRoundedEditRectItem/qttestqtroundededitrectitemcomparedialog.cpp \
+    ../TestRoundedEditRectItem/qttestqtroundededitrectitemmodifydialog.cpp
 
 FORMS += \
-    ../../Tools/ToolTestQtRoundedEditRectItem/qttestqtroundededitrectitemmenudialog.ui \
-    ../../Tools/ToolTestQtRoundedEditRectItem/qttestqtroundededitrectitemcomparedialog.ui \
-    ../../Tools/ToolTestQtRoundedEditRectItem/qttestqtroundededitrectitemmodifydialog.ui
+    ../TestRoundedEditRectItem/qttestqtroundededitrectitemmenudialog.ui \
+    ../TestRoundedEditRectItem/qttestqtroundededitrectitemcomparedialog.ui \
+    ../TestRoundedEditRectItem/qttestqtroundededitrectitemmodifydialog.ui
 
