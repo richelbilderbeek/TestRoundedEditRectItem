@@ -59,15 +59,6 @@ ribi::Help ribi::TestQtRoundedEditRectItemMenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::TestQtRoundedEditRectItemMenuDialog::GetProgram() const noexcept
-{
-  const boost::shared_ptr<const Program> p {
-    new ProgramTestQtRoundedEditRectItem
-  };
-  assert(p);
-  return p;
-}
-
 std::string ribi::TestQtRoundedEditRectItemMenuDialog::GetVersion() const noexcept
 {
   return "1.6";
@@ -107,7 +98,6 @@ void ribi::TestQtRoundedEditRectItemMenuDialog::Test() noexcept
     };
     ::ribi::Regex();
   }
-
   const TestTimer test_timer(__func__,__FILE__,1.0);
 }
 #endif
