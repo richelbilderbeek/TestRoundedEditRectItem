@@ -8,7 +8,6 @@
 #include "plane.h"
 #include "testtimer.h"
 #include "ribi_regex.h"
-#include "richelbilderbeekprogram.h"
 #include "trace.h"
 
 int ribi::TestQtRoundedEditRectItemMenuDialog::ExecuteSpecific(const std::vector<std::string>& argv) noexcept
@@ -32,7 +31,7 @@ ribi::About ribi::TestQtRoundedEditRectItemMenuDialog::GetAbout() const noexcept
     "Richel Bilderbeek",
     "TestQtRoundedEditRectItemWidget",
     "tests QtRoundedEditRectItemWidget",
-    "the 9th of August 2014",
+    "Decmeber 30th of 2015",
     "2012-2015",
     "http://www.richelbilderbeek.nl/ToolTestQtRoundedEditRectItemWidget.htm",
     GetVersion(),
@@ -61,7 +60,7 @@ ribi::Help ribi::TestQtRoundedEditRectItemMenuDialog::GetHelp() const noexcept
 
 std::string ribi::TestQtRoundedEditRectItemMenuDialog::GetVersion() const noexcept
 {
-  return "1.6";
+  return "2.0";
 }
 
 std::vector<std::string> ribi::TestQtRoundedEditRectItemMenuDialog::GetVersionHistory() const noexcept
@@ -73,7 +72,8 @@ std::vector<std::string> ribi::TestQtRoundedEditRectItemMenuDialog::GetVersionHi
     "2014-06-15: version 1.3: added Modify dialog in desktop version",
     "2014-06-23: version 1.4: use of QtRoundedEditRectItemDialog",
     "2014-08-07: version 1.5: increased use of TDD",
-    "2014-08-09: version 1.6: some bugfixes in the classes used"
+    "2014-08-09: version 1.6: some bugfixes in the classes used",
+    "2015-12-30: version 2.0: moved to own GitHub"
 
   };
 }

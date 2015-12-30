@@ -14,8 +14,8 @@
    <string>TestQtRoundedEditRectItem</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolTestQtRoundedEditRectItem.qrc">
-    <normaloff>:/images/ToolTestQtRoundedEditRectItemIcon.png</normaloff>:/images/ToolTestQtRoundedEditRectItemIcon.png</iconset>
+   <iconset resource="TestQtRoundedEditRectItem.qrc">
+    <normaloff>:/images/TestQtRoundedEditRectItemIcon.png</normaloff>:/images/TestQtRoundedEditRectItemIcon.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">QDialog { 
@@ -38,7 +38,7 @@ QPushButton { color: rgb(0,0,0); }</string>
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="ToolTestQtRoundedEditRectItem.qrc"/>
+  <include location="TestQtRoundedEditRectItem.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -1,4 +1,4 @@
-include(../TestRoundedEditRectItem/ToolTestQtRoundedEditRectItemConsole.pri)
+include(../TestRoundedEditRectItem/TestQtRoundedEditRectItemConsole.pri)
 
 HEADERS += \
     ../TestRoundedEditRectItem/qttestqtroundededitrectitemwidget.h \

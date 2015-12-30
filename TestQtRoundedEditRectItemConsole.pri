@@ -7,8 +7,5 @@ SOURCES += \
 HEADERS += \
     ../TestRoundedEditRectItem/testqtroundededitrectitemmenudialog.h
 
-OTHER_FILES += \
-    ../TestRoundedEditRectItem/Licence.txt
-
 RESOURCES += \
-    ../TestRoundedEditRectItem/ToolTestQtRoundedEditRectItem.qrc
+    ../TestRoundedEditRectItem/TestQtRoundedEditRectItem.qrc
