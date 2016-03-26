@@ -44,10 +44,6 @@ protected:
 
 private:
   Ui::QtTestQtRoundedEditRectItemCompareDialog *ui;
-
-  #ifndef NDEBUG
-  static void Test() noexcept;
-  #endif
 };
 
 } //~namespace ribi

@@ -65,10 +65,6 @@ private:
   boost::shared_ptr<QtRoundedEditRectItemDialog> m_dialog_right;
   boost::shared_ptr<QGraphicsView> m_view_left;
   boost::shared_ptr<QGraphicsView> m_view_right;
-
-  #ifndef NDEBUG
-  static void Test() noexcept;
-  #endif
 };
 
 } //~namespace ribi
