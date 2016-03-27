@@ -18,7 +18,7 @@ include(../RibiClasses/CppQtRoundedEditRectItem/CppQtRoundedEditRectItem.pri)
 include(../RibiClasses/CppRibiRegex/CppRibiRegex.pri)
 include(TestQtRoundedEditRectItemDesktop.pri)
 
-SOURCES += qtmain.cpp
+SOURCES += qtmain_test.cpp
 
 # Boost.Test
 LIBS += -lboost_unit_test_framework
