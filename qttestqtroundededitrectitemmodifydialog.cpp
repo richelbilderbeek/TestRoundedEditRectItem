@@ -48,9 +48,6 @@ ribi::QtTestQtRoundedEditRectItemModifyDialog::QtTestQtRoundedEditRectItemModify
     m_view_right(boost::make_shared<QGraphicsView>())
 
 {
-  #ifndef NDEBUG
-  Test();
-  #endif
   ui->setupUi(this);
 
   const auto item = boost::make_shared<QtRoundedEditRectItem>();
@@ -94,15 +91,3 @@ void ribi::QtTestQtRoundedEditRectItemModifyDialog::keyPressEvent(QKeyEvent * ev
 {
   if (event->key() == Qt::Key_Escape) { close(); return; }
 }
-
-#ifndef NDEBUG
-void ribi::QtTestQtRoundedEditRectItemModifyDialog::Test() noexcept
-{
-  {
-    static bool is_tested{false};
-    if (is_tested) return;
-    is_tested = true;
-  }
-  const TestTimer test_timer(__func__,__FILE__,1.0);
-}
-#endif

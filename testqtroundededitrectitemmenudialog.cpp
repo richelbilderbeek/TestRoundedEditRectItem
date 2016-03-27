@@ -12,9 +12,6 @@
 
 int ribi::TestQtRoundedEditRectItemMenuDialog::ExecuteSpecific(const std::vector<std::string>& argv) noexcept
 {
-  #ifndef NDEBUG
-  Test();
-  #endif
   const int argc = static_cast<int>(argv.size());
   if (argc == 1)
   {
@@ -77,27 +74,3 @@ std::vector<std::string> ribi::TestQtRoundedEditRectItemMenuDialog::GetVersionHi
 
   };
 }
-
-#ifndef NDEBUG
-void ribi::TestQtRoundedEditRectItemMenuDialog::Test() noexcept
-{
-  {
-    static bool is_tested{false};
-    if (is_tested) return;
-    is_tested = true;
-  }
-  {
-    Container();
-    fileio::FileIo();
-    const boost::shared_ptr<Plane> p{
-      new Plane(
-        Plane::Coordinat3D(1.0,0.0,0.0),
-        Plane::Coordinat3D(0.0,1.0,0.0),
-        Plane::Coordinat3D(0.0,0.0,1.0)
-      )
-    };
-    ::ribi::Regex();
-  }
-  const TestTimer test_timer(__func__,__FILE__,1.0);
-}
-#endif

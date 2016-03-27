@@ -27,9 +27,6 @@
 ribi::QtTestQtRoundedEditRectItemWidget::QtTestQtRoundedEditRectItemWidget(QWidget *parent)
   : QtKeyboardFriendlyGraphicsView(parent)
 {
-  #ifndef NDEBUG
-  Test();
-  #endif
   //Display with default font
   this->Display(QtRoundedEditRectItem().GetFont());
 }
@@ -108,15 +105,3 @@ void ribi::QtTestQtRoundedEditRectItemWidget::keyPressEvent(QKeyEvent *event) no
   }
   QtKeyboardFriendlyGraphicsView::keyPressEvent(event);
 }
-
-#ifndef NDEBUG
-void ribi::QtTestQtRoundedEditRectItemWidget::Test() noexcept
-{
-  {
-    static bool is_tested{false};
-    if (is_tested) return;
-    is_tested = true;
-  }
-  const TestTimer test_timer(__func__,__FILE__,1.0);
-}
-#endif
