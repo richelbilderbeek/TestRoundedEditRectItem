@@ -20,6 +20,9 @@ include(TestQtRoundedEditRectItemDesktop.pri)
 
 SOURCES += qtmain.cpp
 
+# Boost.Test
+LIBS += -lboost_unit_test_framework
+
 # gcov
 QMAKE_CXXFLAGS += -fprofile-arcs -ftest-coverage
 LIBS += -lgcov
