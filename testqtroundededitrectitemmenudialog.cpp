@@ -18,8 +18,8 @@ int ribi::TestQtRoundedEditRectItemMenuDialog::ExecuteSpecific(const std::vector
     std::cout << GetHelp() << '\n';
     return 1;
   }
-  assert(!"TODO");
-  return 1;
+  std::cout << "Cannot run TestQtRoundedEditRectItemMenuDialog from the command line." << '\n';
+  return 0;
 }
 
 ribi::About ribi::TestQtRoundedEditRectItemMenuDialog::GetAbout() const noexcept
@@ -28,8 +28,8 @@ ribi::About ribi::TestQtRoundedEditRectItemMenuDialog::GetAbout() const noexcept
     "Richel Bilderbeek",
     "TestQtRoundedEditRectItemWidget",
     "tests QtRoundedEditRectItemWidget",
-    "Decmeber 30th of 2015",
-    "2012-2015",
+    "May 1st of 2016",
+    "2012-2016",
     "http://www.richelbilderbeek.nl/ToolTestQtRoundedEditRectItemWidget.htm",
     GetVersion(),
     GetVersionHistory());
@@ -70,7 +70,7 @@ std::vector<std::string> ribi::TestQtRoundedEditRectItemMenuDialog::GetVersionHi
     "2014-06-23: version 1.4: use of QtRoundedEditRectItemDialog",
     "2014-08-07: version 1.5: increased use of TDD",
     "2014-08-09: version 1.6: some bugfixes in the classes used",
-    "2015-12-30: version 2.0: moved to own GitHub"
-
+    "2015-12-30: version 2.0: moved to own GitHub",
+    "2016-05-01: version 2.1: notify that command-line-only version does nothing",
   };
 }
